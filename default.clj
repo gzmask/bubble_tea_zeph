@@ -38,7 +38,6 @@
                                 :w (:w frame)
                                 :h (/ (:h frame) 2)}))))
 
-
 (bind "j" ["Cmd" "Shift"]
           (fn [] 
             (let [window (get-focused-window)
@@ -70,7 +69,7 @@
                                 :w (/ (:w frame) 2)
                                 :h (:h frame)}))))
 
-(bind "i" ["Cmd" "Shift"]
+(comment (bind "i" ["Cmd" "Shift"]
           (fn [] 
             (let [window (get-focused-window)
                   screen (get-screen-for-window window)
@@ -83,7 +82,7 @@
                        "w:"
                        (:w frame)
                        "h:"
-                       (:h frame)) 3))))
+                       (:h frame)) 3)))))
 
 
 @listen-for-callbacks ;; necessary when you use (bind) or (listen)

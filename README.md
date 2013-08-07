@@ -19,5 +19,6 @@ So, focus on that window, and hit Ctrl + Shift + h to "Bubble up".
 
 That's all.
 
-
+Screenshot:
+![Alt screenshot](/bubble_tea.png)
 

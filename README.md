@@ -40,12 +40,12 @@ Launch Zephyros
 
 add following to profiles.clj
 
-```~/.lein/profiles.clj
+```
   {:user {:plugins [[lein-exec "0.3.0"]]}} 
 ```
 
 Run these in terminal
-``
+```
   git clone https://github.com/gzmask/bubble_tea_zeph.git ~/.zeph
 
   lein exec ~/.zeph/bubble_tea.clj

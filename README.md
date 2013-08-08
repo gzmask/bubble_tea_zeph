@@ -1,5 +1,4 @@
-bubble tea for zephyros
-===============
+#####bubble tea for zephyros
 It's always like that. There is only one that matters. 
 
 
@@ -20,7 +19,7 @@ Poor little Bubble's life is over before he knew it.
 
 Eaten.
 
-
+####How to use
 Well, the only thing that matters to any windows on your messy desktop, is the one that needs you to pay attention.
 
 
@@ -32,17 +31,19 @@ Screenshot:
 ![Alt screenshot](/bubble_tea.png)
 
 
-Installation:
+####Installation
 
 
 Download [Zephyros](https://github.com/sdegutis/zephyros) 
 
 Launch Zephyros
 
-add 
+add following to profiles.clj
+
+```~/.lein/profiles.clj
   {:user {:plugins [[lein-exec "0.3.0"]]}} 
-to ~/.lein/profiles.clj
 
   git clone https://github.com/gzmask/bubble_tea_zeph.git ~/.zeph
 
   lein exec ~/.zeph/bubble_tea.clj
+```

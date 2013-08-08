@@ -13,7 +13,7 @@ More to his confusing feeling, he can feel the pushy force behind his, well, rea
 
 
 All of a sudden, a strong suction, flush out the little Bubble. Up in the air, then little Bubble dropped into a surface.
-Finally, he can see the beautiful world reveal in front on him.
+Finally, he can see the beautiful world reveal in front of him.
 While little Bubble is amazed by the scene, a titanic mouth appear from nowhere, licked, then darkness.
 Poor little Bubble's life is over before he knew it.
 

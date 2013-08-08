@@ -38,7 +38,7 @@ Download [Zephyros](https://github.com/sdegutis/zephyros)
 
 Launch Zephyros
 
-add following to profiles.clj
+add following to profiles.clj in ~/.lein/
 
 ```
   {:user {:plugins [[lein-exec "0.3.0"]]}} 

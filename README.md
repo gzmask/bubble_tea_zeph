@@ -46,6 +46,8 @@ add following to profiles.clj in ~/.lein/
 
 Run these in terminal
 ```
+  brew install leiningen
+  
   git clone https://github.com/gzmask/bubble_tea_zeph.git ~/.zeph
 
   lein exec ~/.zeph/bubble_tea.clj

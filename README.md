@@ -23,8 +23,8 @@ Eaten.
 Well, the only thing that matters to any windows on your messy desktop, is the one that needs you to pay attention.
 
 
-Using Ctrl + j,k,h,l to navigate to that window,
-hit Ctrl + Shift + j,k,h,l to "Bubble".
+Using CMD + j,k,h,l to navigate to that window,
+hit CMD + Shift + j,k,h,l to "Bubble".
 
 
 Screenshot:

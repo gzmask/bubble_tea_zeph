@@ -78,7 +78,7 @@
 
 (defn disj_windows [stack fwin]
   (disj (into #{} (for [win stack]
-    (if (not= (get-window-title win) (get-window-title fwin))
+    (if (not= (get-top-left win) (get-top-left fwin))
       win))) nil))
 
 (defn bubble-west [fwin stack frame]
@@ -214,9 +214,12 @@
               (focus-window-down window))))
 
 
-(bind "r" ["Cmd" "Shift"]
-          (fn [] 
-            (relaunch-config)))
 
+(bind "r" ["Cmd" "Shift"] (fn [] 
+                    (let [stack (into #{} (get-visible-windows)) 
+                          window (get-focused-window) 
+                          screen (get-screen-for-window window)
+                          frame (screen-frame-without-dock-or-menu screen)]
+                    (alert (str (get-top-left window)) 5))))
 
 @listen-for-callbacks ;; necessary when you use (bind) or (listen)

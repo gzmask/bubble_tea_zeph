@@ -213,13 +213,11 @@
             (let [window (get-focused-window)] 
               (focus-window-down window))))
 
-
-
 (bind "r" ["Cmd" "Shift"] (fn [] 
                     (let [stack (into #{} (get-visible-windows)) 
                           window (get-focused-window) 
                           screen (get-screen-for-window window)
                           frame (screen-frame-without-dock-or-menu screen)]
-                    (alert (str (get-top-left window)) 5))))
+                    (relaunch-config))))
 
 @listen-for-callbacks ;; necessary when you use (bind) or (listen)
